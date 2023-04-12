@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(42, 55, 72);
+}
+
+.cal-container {
+    width: 80%;
+    height: 34.6rem;
+    margin: 2rem auto;
+    border-radius: 0.4rem;
+    background-color: rgb(40, 40, 40);
+}
+
+.cal-display {
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    height: 12rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 0.4rem;
+    margin-bottom: 0.1rem;
+
+}
+
+.cal-screen {
+    background-color: rgba(25, 108, 9, 0.9);
+    width: 100%;
+    height: 6rem;
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    border-radius: 0.2rem;
+    text-align: end;
+    padding-right: 0.5rem;
+
+
+    color: rgb(180, 180, 180);
+}
+
+.cal-screen-minor {
+    width: 100%;
+    height: 2rem;
+
+    background-color: rgba(31, 134, 10, 0.708);
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: end;
+
+    padding-right: 0.6rem;
+    color: rgb(195, 203, 210);
+
+}
+
+.cal-interface {
+    width: 100%;
+    height: 22rem;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.2rem;
+    column-gap: 0.2rem;
+
+    border-radius: 0.5rem;
+}
+
+.btns {
+    background-color: rgb(67, 67, 67);
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 0.4rem;
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+
+}
+
+.btns:hover {
+    background-color: rgba(58, 58, 58, 2);
+}
+
+@media (min-width:1000px) {
+    .cal-container {
+        width: 40%;
+    }
+}

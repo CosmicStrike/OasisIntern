@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(228, 228, 228, 0.727);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(95, 172, 255);
+    padding: 2rem;
+    align-items: center;
+}
+
+img {
+    width: 18rem;
+    padding: 1rem;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    color: white;
+    font-weight: 900;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 1.4rem;
+    margin: 1rem auto;
+    box-shadow: 2px 6px 10px gray;
+    background-color: rgba(242, 242, 242, 0.705);
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 1rem;
+    background-color: rgba(213, 213, 213, 0.399);
+    padding: 1rem;
+    border-radius: 1rem;
+}
